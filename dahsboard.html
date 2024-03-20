@@ -6,79 +6,162 @@
     <title>Biblioteca Escolar PBL</title>
 </head>
 <body>
-    <div class="corpo">
-        <nav>
-            <div class="menu-sid">
-                <i class="bi bi-list sidebar-toggle"></i>
-            </div>
-            <div class="div-logo-name">
-                <span class="logo_name">Biblioteca</span>
-            </div>
-            <div class="menu-items">
-                <ul class="nav-links">
-                 <li><a href="dahsboard.html">
-                    <i class="bi bi-house"></i>
-                    <span class="link-name">dahsboard</span>
-                 </a></li>
-                 <li><a href="alunos.html">
-                    <i class="bi bi-person-vcard"></i>
-                    <span class="link-name">alunos</span>
-                 </a></li>
-                 <li><a href="funcionarios.html">
-                    <i class="bi bi-person-vcard"></i>
-                    <span class="link-name">funcionarios</span>
-                 </a></li>
-                 <li><a href="editoras.html">
-                    <i class="bi bi-clipboard-data"></i>
-                    <span class="link-name">editoras</span>
-                 </a></li>
-                 <li><a href="livros.html">
-                    <i class="bi bi-clipboard-data"></i>
-                    <span class="link-name">livros</span>
-                 </a></li>
-                 <li><a href="emprestimos.html">
-                    <i class="bi bi-person-workspace"></i>
-                    <span class="link-name">empréstimos</span>
-                 </a></li>
-                </ul>
-            </div>
-        </nav>
-        <section class="dahsboard">
-            <div class="top">
+    <div class="corpo"> 
+      <nav>
+        <div class="menu-sid">
+            
+            <i class="bi bi-list sidebar-toggle"></i>
+        </div>
+        <div class="div-logo-name">
+            <span class="logo_name">Biblioteca</span>
+        </div>
+      
+
+      <div class="menu-items">
+        <ul class="nav-links">
+    <li><a href="dahsboard.html">
+        <i class="bi bi-house"></i>
+        <span class="link-name">Dahsboard</span>
+    </a></li>
+    <li><a href="Alunos.html">
+        <i class="bi bi-person-vcard"></i>
+         <span class="link-name">Alunos</span>
+    </a></li>
+
+    <li><a href="Fucionarios.html">
+        <i class="bi bi-person-vcard"></i>
+         <span class="link-name">Fucionarios</span>
+    </a></li>
+
+    <li><a href="Editoras.html">
+        <i class="bi bi-clipboard-data"></i>
+         <span class="link-name">Editoras</span>
+    </a></li>
+
+    <li><a href="Livros.html">
+        <i class="bi bi-clipboard-data"></i>
+         <span class="link-name">Livros</span>
+    </a></li>
+
+    <li><a href="Emprestimos.html">
+        <i class="bi bi-person-workespace"></i>
+         <span class="link-name">Emprestimos</span>
+    </a></li></ul>
+
+     </div>
+     </nav>
+     <section class="dashboard">
+        <div class="top">
             <i class="bi bi-list sidebar-toggle2"></i>
             <div class="logo-name">
-                <h1 class="seduc-logo">biblioteca escolar</h1>
+                <h1 class="seduc-logo">Biblioteca Escolar</h1>
             </div>
-            <div class="actionimg">
-                <div class="profile" onclick="meuToggle();">
+
+            <div class="actioning">
+                <div class="profile" onclick="menuToglle();">
                     <img src="img/avatar5.png" alt="">
                 </div>
                 <div class="menu">
                     <h3>
-                        Jhon Ruan
+                        Messias
                     </h3>
                     <ul>
                         <li>
-                            <span class="material-icon icons-size"><i class="bi bi-person"></i></span>
-                            <a href="#">Perfil</a>
+                        <span class="material-icons icons-size"><i class="bi bi-person"></i></span>
+                        <a href="#">Perfil</a>
                         </li>
+
                         <li>
-                            <span class="material-icon icons-size"><i class="bi bi-question-circle"></i></span>
+                            <span class="material-icons icons-size"><i class="bi bi-question-circle"></i></span>
                             <a href="#">Ajuda</a>
-                        </li>
+                            </li>
                         <li>
-                            <span class="material-icon icons-size"><i class="bi bi-gear"></i></span>
-                            <a href="#">Configurções</a>
-                        </li>
-                        <li>
-                            <span class="material-icon icons-size"><i class="bi bi-box-arrow-right"></i></span>
+                            <span class="material-icons icons-size"><i class="bi bi-gear"></i></span>
+                            <a href="#">Configuração</a>
+                            </li>
+                        <li>  
+                            <span class="material-icons icons-size"><i class="bi bi-box-arrow-right"></i></span>
                             <a href="index.html">Saída</a>
-                        </li>
+                            </li>      
                     </ul>
                 </div>
             </div>
         </div>
-        </section>
-    </div>
+        <div class="corpo-da-pag">
+            <div class="scroll">
+                <div class="activity">
+                    <div class="overvlew">
+                        <div class="title">
+                            <i class="bi bi-house"></i>
+                            <span class="text">Dahsboard</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <section class="content container-fluid">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3 id="number-emprestimo">0</h3>
+                        <p>Emprestimos</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3 id="number-alunos">0</h3>
+                        <p>Alunos</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3 id="number-editoras">0</h3>
+                        <p>Editoras</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion-home"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3 id="number-fucionario">0</h3>
+                        <p>Funcionarios</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3 id="number-livros">0</h3>
+                        <p>Livros</p>
+                    </div>
+                    <div class="icon">
+                        <i class="ion-ios-book"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    
+</div>
+    
 </body>
 </html>
