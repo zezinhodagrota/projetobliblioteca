@@ -11,14 +11,14 @@
 }
 body{
     min-height: 100vh;
-    background-color: #cb0404;
+    background-color: hsl(201, 91%, 45%);
 }
 nav{
     top: 0%;
     left: 0%;
     height: 100vh;
     width: 250px;
-    background-image: linear-gradient(to bottom right,rgb(0, 0, 0) ,rgb(253, 0, 0)) !important;
+    background-image: linear-gradient(to bottom right,rgb(20, 21, 27) ,rgba(103, 98, 98, 0.587)) !important;
     transition: all 0.5s ease;
     overflow: auto;
 }
@@ -155,4 +155,48 @@ nav.close li a .link-nome{
     right: 30px;
     display: flex;
     object-fit: cover;
+}
+.actionimg .profile{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    overflow: hidden;
+    width: 36px;
+}
+
+.actionimg .profile img{
+    width: 100%;
+    top: 0;
+    object-fit: cover;
+    left: 0;
+    height: 100%;
+}
+.actionimg .menu{
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    transition: 0.5s;
+    top: 120px;
+    visibility: hidden;
+    opacity: 0;
+}
+.actionimg .menu.active{
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+}
+.actionimg .menu::before {
+    background-color: #ffffff;
+    content: '';
+    height: 20px;
+    position: absolute;
+    right: 14px;
+    transform: rotate(45deg);
+    top: -5;
+    
+
 }
