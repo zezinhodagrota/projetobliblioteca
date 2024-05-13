@@ -11,14 +11,14 @@
 }
 body{
     min-height: 100vh;
-    background-color: rgb(113, 198, 255);
+    background-color: #cb0404;
 }
 nav{
     top: 0%;
     left: 0%;
     height: 100vh;
     width: 250px;
-    background-image: linear-gradient(to bottom right,#837 ,#776) !important;
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0) ,rgb(253, 0, 0)) !important;
     transition: all 0.5s ease;
     overflow: auto;
 }
@@ -54,4 +54,105 @@ nav .menu-items{
     flex-direction: column;
     justify-content: space-between;
     padding-top: 25px;
+}
+.menu-items li{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(119, 253, 47, 0.133);
+    height:40px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.close .menu-items li a{
+    justify-content: center;
+}
+.menu-items li a{
+    text-decoration: none;
+    height:40px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav-links li:hover{
+    border-radius: 3px solid rgb(188, 56, 171);
+    font-weight: bold;
+    background-image: linear-gradient(to right,#23881c85,#2789cb,#3b90b4) !important;
+    background: transparent;
+}
+.button-menu{
+    overflow: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 13px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #11a7da;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    line-height: 27px;
+}
+.menu-items li a i{
+    font-size: 18px;
+    min-width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+}
+.menu-items li a .link-nome{
+    font-size: 16px;
+    font-weight: 400;
+    color:#ffffff;
+    transition: all 0.5s ease;
+}
+nav.close li a .link-nome{
+    display: flex;
+}
+.menu-items .mode{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.close .menu-sid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .menu-sid{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 12px;
+ }
+.sidebar-toggle{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px;
+}
+.sidebar-toggle2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px;
+    display: none;
+} 
+/*perfil*/
+.icons-size{
+    color: #555;
+    font-size: 22px;
+    font-weight: 600;
+}
+.actionimg{
+    right: 30px;
+    display: flex;
+    object-fit: cover;
 }
