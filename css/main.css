@@ -18,7 +18,7 @@
 /*MENU*/
 body {
     min-height: 100vh;
-    background-color: #0E4BF1;
+    background-color: #dd4f0e;
 }
 
 nav {
@@ -47,7 +47,7 @@ nav .div-logo-name {
 nav .logo_name {
     font-size: 29px;
     font-weight: 600;
-    color: #00aaff;
+    color: #e04a04;
     transition: all 0.5s ease;
 }
 
@@ -71,7 +71,7 @@ nav .menu-items {
 
 .menu-items li {
     background-color: transparent;
-    border-bottom: 1px solid #1A2326;
+    border-bottom: 1px solid #bd350c;
     height: 40px;
     width: 100%;
     display: flex;
@@ -92,9 +92,9 @@ nav .menu-items {
 }
 
 .nav-links li:hover {
-    border-left: 3px solid #00aaff;
+    border-left: 3px solid #ff4800;
     font-weight: bold;
-    background-image: linear-gradient(to right, #181E22, #181E22, #2C383D) !important;
+    background-image: linear-gradient(to right, #863f0f, #221d18, #1d0f07) !important;
     background: transparent;
 }
 
@@ -105,7 +105,7 @@ nav .menu-items {
     font-size: 13px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #1A2326;
+    border-bottom: 1px solid #2ba0c7;
     height: 40px;
     text-decoration: none;
     color: white;
@@ -272,7 +272,7 @@ nav.close li a .link-name {
     opacity: 1;
 }
 .actionimg .menu ul li:hover *{
-    color: #00aaff;
+    color: #df4b11;
 
 }
 .actionimg .menu ul li:hover a {
